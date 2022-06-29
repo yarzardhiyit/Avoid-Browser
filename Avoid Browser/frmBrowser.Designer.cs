@@ -38,12 +38,14 @@
             this.txtUrl = new System.Windows.Forms.TextBox();
             this.cbSearchEngine = new System.Windows.Forms.ComboBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
+            this.lblCopyRight = new System.Windows.Forms.Label();
             this.gpBrowser.SuspendLayout();
             this.tlsAddr.SuspendLayout();
             this.SuspendLayout();
             // 
             // gpBrowser
             // 
+            this.gpBrowser.Controls.Add(this.lblCopyRight);
             this.gpBrowser.Controls.Add(this.webAvoid);
             this.gpBrowser.Location = new System.Drawing.Point(0, 38);
             this.gpBrowser.Name = "gpBrowser";
@@ -146,6 +148,15 @@
             this.txtSearch.TabIndex = 1;
             this.txtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyDown);
             // 
+            // lblCopyRight
+            // 
+            this.lblCopyRight.AutoSize = true;
+            this.lblCopyRight.Location = new System.Drawing.Point(1021, 570);
+            this.lblCopyRight.Name = "lblCopyRight";
+            this.lblCopyRight.Size = new System.Drawing.Size(213, 16);
+            this.lblCopyRight.TabIndex = 1;
+            this.lblCopyRight.Text = "Made with ❤️ by yarzardhiyit © 2022";
+            // 
             // frmBrowser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -162,6 +173,7 @@
             this.Text = "Avoid Browser";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmBrowser_FormClosing);
             this.gpBrowser.ResumeLayout(false);
+            this.gpBrowser.PerformLayout();
             this.tlsAddr.ResumeLayout(false);
             this.tlsAddr.PerformLayout();
             this.ResumeLayout(false);
@@ -181,6 +193,7 @@
         private System.Windows.Forms.TextBox txtUrl;
         private System.Windows.Forms.ComboBox cbSearchEngine;
         private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Label lblCopyRight;
     }
 }
 
