@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.gpBrowser = new System.Windows.Forms.GroupBox();
+            this.lblCopyRight = new System.Windows.Forms.Label();
             this.webAvoid = new System.Windows.Forms.WebBrowser();
             this.tlsAddr = new System.Windows.Forms.ToolStrip();
             this.tlsBack = new System.Windows.Forms.ToolStripButton();
@@ -38,7 +39,6 @@
             this.txtUrl = new System.Windows.Forms.TextBox();
             this.cbSearchEngine = new System.Windows.Forms.ComboBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
-            this.lblCopyRight = new System.Windows.Forms.Label();
             this.gpBrowser.SuspendLayout();
             this.tlsAddr.SuspendLayout();
             this.SuspendLayout();
@@ -52,6 +52,15 @@
             this.gpBrowser.Size = new System.Drawing.Size(1262, 595);
             this.gpBrowser.TabIndex = 0;
             this.gpBrowser.TabStop = false;
+            // 
+            // lblCopyRight
+            // 
+            this.lblCopyRight.AutoSize = true;
+            this.lblCopyRight.Location = new System.Drawing.Point(1021, 570);
+            this.lblCopyRight.Name = "lblCopyRight";
+            this.lblCopyRight.Size = new System.Drawing.Size(213, 16);
+            this.lblCopyRight.TabIndex = 1;
+            this.lblCopyRight.Text = "Made with ❤️ by yarzardhiyit © 2022";
             // 
             // webAvoid
             // 
@@ -147,15 +156,6 @@
             this.txtSearch.Size = new System.Drawing.Size(261, 22);
             this.txtSearch.TabIndex = 1;
             this.txtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyDown);
-            // 
-            // lblCopyRight
-            // 
-            this.lblCopyRight.AutoSize = true;
-            this.lblCopyRight.Location = new System.Drawing.Point(1021, 570);
-            this.lblCopyRight.Name = "lblCopyRight";
-            this.lblCopyRight.Size = new System.Drawing.Size(213, 16);
-            this.lblCopyRight.TabIndex = 1;
-            this.lblCopyRight.Text = "Made with ❤️ by yarzardhiyit © 2022";
             // 
             // frmBrowser
             // 
